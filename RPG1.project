@@ -6,88 +6,88 @@
     </Plugin>
   </Plugins>
   <VirtualDirectory Name="RPG1">
-    <File Name="PauseMenu.h"/>
-    <File Name="Tab.h"/>
-    <File Name="Weapon.h"/>
-    <File Name="PauseMenu.cpp"/>
-    <File Name="Game.h"/>
-    <File Name="EnemySystem.cpp"/>
-    <File Name="TextTagSystem.cpp"/>
-    <File Name="main.cpp"/>
     <File Name="EditorMode.h"/>
-    <File Name="RegularTile.cpp"/>
-    <File Name="GraphicsSettings.cpp"/>
-    <File Name="GraphicsSettings.h"/>
-    <File Name="AttributeComponent.cpp"/>
-    <File Name="State.h"/>
-    <File Name="AnimationComponent.cpp"/>
-    <File Name="MeleeWeapon.cpp"/>
-    <File Name="HitboxComponent.h"/>
-    <File Name="Tile.cpp"/>
-    <File Name="MovementComponent.cpp"/>
-    <File Name="PlayerGUI.h"/>
-    <File Name="Inventory.h"/>
     <File Name="Enemies_include.h"/>
-    <File Name="EditorMode.cpp"/>
+    <File Name="State.h"/>
     <File Name="CharacterTab.cpp"/>
-    <File Name="Sword.h"/>
-    <File Name="CharacterTab.h"/>
-    <File Name="MainMenuState.h"/>
+    <File Name="Rat.h"/>
+    <File Name="Tab.h"/>
+    <File Name="Enemy.cpp"/>
+    <File Name="PlayerGUITabs.cpp"/>
+    <File Name="Entity.cpp"/>
     <File Name="EditorModes.h"/>
-    <File Name="Player.cpp"/>
-    <File Name="MovementComponent.h"/>
-    <File Name="Player.h"/>
     <File Name="HitboxComponent.cpp"/>
-    <File Name="Tab.cpp"/>
-    <File Name="AttributeComponent.h"/>
-    <File Name="RegularTile.h"/>
+    <File Name="Bow.cpp"/>
+    <File Name="MovementComponent.cpp"/>
+    <File Name="Inventory.h"/>
     <File Name="EnemySpawnerTile.h"/>
+    <File Name="PlayerGUITabs.h"/>
+    <File Name="GameState.cpp"/>
+    <File Name="EditorMode.cpp"/>
+    <File Name="Player.h"/>
+    <File Name="Weapon.cpp"/>
+    <File Name="TextTagSystem.cpp"/>
+    <File Name="Gui.h"/>
+    <File Name="RegularTile.cpp"/>
     <File Name="Entity.h"/>
-    <File Name="EnemyEditorMode.h"/>
-    <File Name="State.cpp"/>
-    <File Name="Gui.cpp"/>
+    <File Name="Game.cpp"/>
+    <File Name="MovementComponent.h"/>
+    <File Name="MeleeWeapon.cpp"/>
+    <File Name="GraphicsSettings.h"/>
+    <File Name="RangedWeapon.h"/>
+    <File Name="EditorState.cpp"/>
+    <File Name="HitboxComponent.h"/>
+    <File Name="MainMenuState.cpp"/>
+    <File Name="AttributeComponent.h"/>
+    <File Name="main.cpp"/>
     <File Name="EnemySpawnerTile.cpp"/>
     <File Name="DefaultEditorMode.h"/>
-    <File Name="AnimationComponent.h"/>
-    <File Name="SkillComponent.h"/>
-    <File Name="PlayerGUITabs.cpp"/>
-    <File Name="Game.cpp"/>
-    <File Name="EditorState.h"/>
-    <File Name="Rat.h"/>
-    <File Name="TileMap.cpp"/>
-    <File Name="PlayerGUITabs.h"/>
-    <File Name="MainMenuState.cpp"/>
-    <File Name="PlayerGUI.cpp"/>
-    <File Name="SettingsState.cpp"/>
-    <File Name="Enemy.cpp"/>
-    <File Name="Bow.h"/>
+    <File Name="Player.cpp"/>
     <File Name="TextTagSystem.h"/>
-    <File Name="Gui.h"/>
-    <File Name="GameState.h"/>
-    <File Name="Items.h"/>
-    <File Name="DefaultEditorMode.cpp"/>
-    <File Name="Rat.cpp"/>
-    <File Name="Tile.h"/>
-    <File Name="GameState.cpp"/>
-    <File Name="EditorState.cpp"/>
-    <File Name="TileMap.h"/>
+    <File Name="PauseMenu.h"/>
+    <File Name="MeleeWeapon.h"/>
+    <File Name="Bow.h"/>
     <File Name="Item.cpp"/>
-    <File Name="RangedWeapon.h"/>
-    <File Name="Entity.cpp"/>
     <File Name="stdafx.h"/>
+    <File Name="Tile.h"/>
+    <File Name="TileMap.h"/>
     <File Name="RangedWeapon.cpp"/>
+    <File Name="PauseMenu.cpp"/>
+    <File Name="SkillComponent.cpp"/>
+    <File Name="EnemyEditorMode.cpp"/>
+    <File Name="Tab.cpp"/>
+    <File Name="DefaultEditorMode.cpp"/>
+    <File Name="stdafx.cpp"/>
+    <File Name="SettingsState.h"/>
+    <File Name="SettingsState.cpp"/>
+    <File Name="Enemy.h"/>
+    <File Name="PlayerGUI.cpp"/>
+    <File Name="PlayerGUI.h"/>
+    <File Name="GameState.h"/>
+    <File Name="GraphicsSettings.cpp"/>
+    <File Name="AttributeComponent.cpp"/>
+    <File Name="State.cpp"/>
+    <File Name="Inventory.cpp"/>
+    <File Name="AnimationComponent.cpp"/>
+    <File Name="Rat.cpp"/>
+    <File Name="Gui.cpp"/>
+    <File Name="Tile.cpp"/>
+    <File Name="CharacterTab.h"/>
+    <File Name="Sword.h"/>
+    <File Name="SkillComponent.h"/>
     <File Name="Item.h"/>
     <File Name="EnemySystem.h"/>
-    <File Name="SkillComponent.cpp"/>
-    <File Name="Enemy.h"/>
-    <File Name="EnemyEditorMode.cpp"/>
-    <File Name="MeleeWeapon.h"/>
-    <File Name="Weapon.cpp"/>
-    <File Name="Bow.cpp"/>
-    <File Name="SettingsState.h"/>
-    <File Name="Inventory.cpp"/>
+    <File Name="MainMenuState.h"/>
+    <File Name="Weapon.h"/>
+    <File Name="EnemyEditorMode.h"/>
+    <File Name="EditorState.h"/>
+    <File Name="TileMap.cpp"/>
+    <File Name="AnimationComponent.h"/>
+    <File Name="Items.h"/>
+    <File Name="RegularTile.h"/>
+    <File Name="Game.h"/>
     <File Name="Sword.cpp"/>
-    <File Name="stdafx.cpp"/>
+    <File Name="EnemySystem.cpp"/>
   </VirtualDirectory>
   <Description/>
   <Dependencies/>
@@ -101,22 +101,22 @@
       </Linker>
       <ResourceCompiler Options=""/>
     </GlobalSettings>
-    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
-      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="/home/jamie/Dev/RPG1/stdafx.h" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
-        <IncludePath Value="/usr/include/SFML"/>
+        <Preprocessor Value="SFML_STATIC"/>
       </Compiler>
       <Linker Options="-O0" Required="yes">
         <LibraryPath Value="."/>
         <LibraryPath Value="Debug"/>
-        <Library Value="sfml-system"/>
-        <Library Value="sfml-window"/>
         <Library Value="sfml-graphics"/>
+        <Library Value="sfml-window"/>
         <Library Value="sfml-audio"/>
         <Library Value="sfml-network"/>
+        <Library Value="sfml-system"/>
       </Linker>
       <ResourceCompiler Options="" Required="no"/>
-      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="/home/jamie/Dev/RPG1" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <General OutputFile="$(ProjectName)" IntermediateDirectory="" Command="$(WorkspacePath)/build-$(WorkspaceConfiguration)/bin/$(OutputFile)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(WorkspacePath)/build-$(WorkspaceConfiguration)/lib" PauseExecWhenProcTerminates="no" IsGUIProgram="yes" IsEnabled="yes"/>
       <BuildSystem Name="CodeLite Make Generator"/>
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
         <![CDATA[]]>
@@ -150,5 +150,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <Dependencies Name="Debug"/>
 </CodeLite_Project>

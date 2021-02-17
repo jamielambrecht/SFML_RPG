@@ -17,10 +17,10 @@
 #include <cmath>
 
 //	SFML
-#include <System.hpp>
-#include <Window.hpp>
-#include <Graphics.hpp>
-#include <Audio.hpp>
-#include <Network.hpp>
+#include <SFML/System.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
+#include <SFML/Network.hpp>
 
 using std::pow;
